@@ -12,5 +12,6 @@ export class AppComponent {
 
   onSubmit() {
     alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.model, null, 4));
+    console.log(this.model);
   }
 }
